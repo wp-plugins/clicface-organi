@@ -75,7 +75,7 @@ Languages currently available are:
 * English
 * French
 
-You can also translate Clicface Organi in your own language, then submit your translation, so everybody would can use it. To do it, we have [a project hosted at Transifex](https://www.transifex.com/projects/p/clicface-trombi/) where you can add the translation in your language. It’s simple, fast and effective.
+You can also translate Clicface Organi in your own language, then submit your translation, so everybody would can use it. To do it, we have [a project hosted at Transifex](https://www.transifex.com/projects/p/clicface-trombi/) where you can add the translation in your language. It's simple, fast and effective.
 
 = I would like to insert as much employees as I need in an Org Chart. How can I do? =
 For unlimited use, we suggest you to choose the best version for you with our [comparison table](http://www.clicface.com/pricing/).
