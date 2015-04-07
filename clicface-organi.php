@@ -380,6 +380,9 @@ function organi_display_views( $atts ) {
 		$boutons .= '<a href="#" id="clicface_reload_page_button" target="_top"><img src="' . plugins_url( 'img/refresh-icon.png' , __FILE__ ) . '" title="' .  __('Reload page', 'clicface-trombi') . '" /></a>&nbsp;';
 		$boutons .= '</div>';
 		$boutons .= '<div id="clicface-organi-add-box"><form action="' . get_permalink() . '" method="get">';
+		if ( get_option('permalink_structure') == '' ) {
+			$boutons .= '<input type="hidden" name="page_id" value="' . get_query_var('page_id') . '" />';
+		}
 		$boutons .= '<input type="hidden" name="_wpnonce" value="' . $nonce . '" />';
 		$boutons .= '<select name="co2add"><option>' . __('Select an Employee to add', 'clicface-trombi') . '</option>';
 		foreach( $collaborateurs as $collaborateur_id => $collaborateur_nom ) {
@@ -389,6 +392,9 @@ function organi_display_views( $atts ) {
 		$boutons .= '<input type="submit" name="submit" value="' . __('Add', 'clicface-trombi') . '" />';
 		$boutons .= '</form></div>';
 		$boutons .= '<div id="clicface-organi-add-label"><form action="' . get_permalink() . '" method="get">';
+		if ( get_option('permalink_structure') == '' ) {
+			$boutons .= '<input type="hidden" name="page_id" value="' . get_query_var('page_id') . '" />';
+		}
 		$boutons .= '<input type="hidden" name="_wpnonce" value="' . $nonce . '" />';
 		$boutons .= '<select name="co2add"><option>' . __('Select a Label to add', 'clicface-trombi') . '</option>';
 		foreach( $labels as $label_id => $label_nom ) {

@@ -3,8 +3,8 @@ Contributors: clicface
 Donate link: http://www.clicface.com/
 Tags: org chart, organizational chart, management tool, management, organigram, organigramme, staff directory
 Requires at least: 2.9.2
-Tested up to: 3.9.2
-Stable tag: 1.01
+Tested up to: 4.1.1
+Stable tag: 1.02
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,5 +89,8 @@ If you need help, feel free to contact us using the [Support Ticket System](http
 Screenshots are available on the [Clicface website](http://www.clicface.com/screenshots).
 
 == Changelog ==
+= 1.02 =
+* Permalink support improvement
+
 = 1.01 =
 * Initial import
