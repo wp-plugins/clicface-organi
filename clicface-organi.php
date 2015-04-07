@@ -3,7 +3,7 @@
 Plugin Name: Clicface Organi
 Plugin URI: http://www.clicface.com/
 Description: The Org Chart web application. Clicface Trombi required.
-Version: 1.01
+Version: 1.02
 Author: Clicface
 Author URI: http://www.clicface.com/
 Plugin Type: Piklist
